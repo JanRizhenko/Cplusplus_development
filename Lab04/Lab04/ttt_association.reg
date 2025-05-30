@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.ttt]
+@="tttfile"
+
+[HKEY_CLASSES_ROOT\tttfile]
+@="TTT File"
+
+[HKEY_CLASSES_ROOT\tttfile\shell\open\command]
+@="\"C:\\Windows\\system32\\notepad.exe\" \"%1\""
